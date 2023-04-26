@@ -15,7 +15,7 @@ const profileitems = (props) => {
 					<p className="card-text"><b>Address:</b> {props.address}</p>
 					<p><b>Phone Number:</b>{props.mobile} </p>
 					<p><b>Telephone Number:</b>{props.tmob}</p>
-					<Link to="/modal"onClick={update} className="btn btn-success">Show More</Link>
+					<Link className="btn btn-success">Show More</Link>
 				</div>
 			</div>
 		</div>
