@@ -51,6 +51,8 @@
 
 .navbar .navbar-nav .nav-link {
     color: var(--dark);
+    font-weight: 500;
+    font-size: 19px;
 }
 
 .navbar .navbar-nav .nav-link:hover {
@@ -84,3 +86,14 @@
     border-color: #d64022;
     color: #fff;
 }
+
+@media only screen and (max-width: 600px) {
+    .navbar-brand {
+        font-size: 19px;
+        font-weight: 800
+    }
+    .top-nav p {
+        margin-right: 0px;
+    }
+    
+  }
